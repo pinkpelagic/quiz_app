@@ -7,27 +7,31 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <div class="quiz-container">
+        <div class="quiz-container" id="quiz">
             <h2 id="question">Let's Play</h2>
             <ul>
                 <li>
-                    <input type="radio" id="a" name="answer"/>
+                    <input type="radio" id="a" name="answer" class="answer"/>
                     <label id="a_text" for="a">Question</label>
                 </li>
                 <li>
-                    <input type="radio" id="b" name="answer"/>
+                    <input type="radio" id="b" name="answer" class="answer"/>
                     <label id="b_text" for="b">Question</label>
                 </li>
                 <li>
-                    <input type="radio" id="c" name="answer"/>
+                    <input type="radio" id="c" name="answer" class="answer"/>
                     <label id="c_text" for="c">Question</label>
                 </li>
                 <li>
-                    <input type="radio" id="d" name="answer"/>
+                    <input type="radio" id="d" name="answer" class="answer"/>
                     <label id="d_text" for="d">Question</label>
                 </li>
             </ul>
             <button id="submit-ans" class="button-submit">Submit</button>
+            
+        </div>
+        <div id = "try">
+            <button onclick="sample()" class="btn-reload">Try Again</button>
         </div>
     </body>
 </html>

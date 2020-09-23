@@ -42,3 +42,13 @@ ul {
     margin-left: 17px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.btn-reload {
+    background-color: rgb(181, 3, 178);
+    color: white;
+    margin-top: 280px;
+    margin-left: -280px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+}

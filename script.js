@@ -87,7 +87,7 @@ submit.addEventListener('click', () => {
         }
         else
         {
-            document.getElementById("quiz  ").innerHTML = "You scored " + score + " out of " + quizData.length;
+            document.getElementById("quiz").innerHTML = "You scored " + score + " out of " + quizData.length;
             //document.getElementById("try").innerHTML = "realoding..";
             //setInterval(function(){ 
               //  location.reload();

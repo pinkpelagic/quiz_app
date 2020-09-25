@@ -20,10 +20,15 @@ body {
 .button-submit {
     display: block;
     color: azure;
-    background-color: rgb(245, 119, 203);
+    background-color: rgb(240, 78, 186);
+    opacity: 0.7;
     width: 100%;
     height: 40px;
     border: none;
+}
+.button-submit:hover{
+    opacity: 1;
+    font-weight: bolder;
 }
 
 h2 {
@@ -44,11 +49,17 @@ ul {
 }
 
 .btn-reload {
-    background-color: rgb(181, 3, 178);
+    background-color:red;
+    opacity: 0.7;
     color: white;
-    margin-top: 280px;
+    margin-top: 330px;
     margin-left: -280px;
     border: none;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.btn-reload:hover{
+    opacity: 1;
+    font-weight: bolder;
 }

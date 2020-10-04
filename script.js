@@ -32,13 +32,16 @@ const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submit = document.getElementById("submit-ans");
+const start = document.getElementById("start-btn");
 
 
 let currentQuiz = 0;
 //let answer = undefined;
 let score = 0;
 
+//start.addEventListener('click', () => {
 loadQuiz();
+
 
 
 function loadQuiz()

@@ -63,3 +63,22 @@ ul {
     opacity: 1;
     font-weight: bolder;
 }
+
+#start-btn {
+    background-color: rgb(6, 140, 250);
+    opacity: 0.8;
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: solid palevioletred;
+    border-radius: 10%;
+}
+
+#start-btn:hover {
+    opacity: 1;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
